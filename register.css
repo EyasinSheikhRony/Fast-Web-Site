@@ -1,0 +1,106 @@
+body {
+    background-color: pink;
+    font-family: 'roboto', sans-serif;
+}
+
+.singup {
+    width: 350px;
+    height: auto;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-right: 12px solid #31F40E;
+}
+
+.singup:hover {
+    border: 1px solid #31F40E;
+    border-radius: 10px;
+    box-shadow: 3px 3px 30px #31F40E;
+}
+
+form {
+    width: 300px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+form label {
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+form input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    background-color: rgb(244, 234, 239);
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-right: none;
+}
+
+.singup form input:hover {
+    background-color: white;
+    outline: none;
+}
+
+.gender {
+    display: flex;
+    margin: 10px 10px;
+}
+
+.gender label {
+    margin-right: 10px;
+}
+
+.country{
+    margin: 10px 5px;
+    text-align: start;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.country select {
+    width: 150px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.country label {
+    margin-left: 5px;
+}
+
+.check {
+    text-align: start;
+    padding: 0px 10px;
+}
+
+.Register {
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px 30px;
+    margin: 40px 0px 20px 0px;
+    cursor: pointer;
+    color: gray;
+    font-weight: bold;
+    border: 2px solid gray;
+}
+
+.Register:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 5px 10px 15px gray;
+}

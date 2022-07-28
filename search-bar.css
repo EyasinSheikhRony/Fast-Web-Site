@@ -1,0 +1,266 @@
+body {
+    width: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #19c119;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.img-div img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.subject-div {
+    display: flex;
+}
+
+.subject-div h3 a {
+    text-decoration: none;
+    color: gold;
+    margin-left: 15px;
+}
+
+.subject-div h3 a:hover {
+    color: #F4F332;
+}
+
+.search-div {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+
+.search-div img {
+    height: 25px;
+}
+
+.search-div input {
+    height: 23px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+    outline: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: gray;
+}
+
+.search-div button {
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: gray;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-div button:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.login-div {
+    display: flex;
+    padding-right: 20px;
+}
+
+.login-div img {
+    height: 28px;
+    margin-right: 5px;
+    
+}
+
+.login-div a {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: gold;
+}
+
+.login-div a:hover {
+    color: #F4F332;
+}
+
+.language-div label {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.language-div select {
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+    padding: 2px;
+    outline: none;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: white;
+    width: 150px;
+}
+
+.language-div select option {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.language-div select:focus {
+    background-color: gray;
+    color: white;
+}
+
+.footer {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* margin-top: 700px; */
+    margin: 600px 0px 50px 0px;
+}
+
+.about-div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    color: rgb(85, 72, 72);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.about-div .div-01 .a01-01 {
+    transition: all 0.3s ease;
+}
+
+.about-div .div-01 .a01-01:hover {
+    cursor: pointer;
+    /* text-decoration: underline; */
+    padding-left: 8px;
+}
+
+.about-div .div-01 .a01-02:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-01 .a01-03:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-02 .a02-01:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-02 .a02-02:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-02 .a02-03:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-03 .a03-01:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-03 .a03-02:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-03 .a03-03:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-03 .a03-04:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-04 .a04-01:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-04 .a04-02:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-04 .a04-03:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-div .div-04 .a04-04:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.follow-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+hr {
+    opacity: 0.3;
+    width: 90%;
+}
+
+.social-div img {
+    display: flex;
+    height: 20px;
+    
+}
+
+.social-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.social-div h4 {
+    margin-right: 20px;
+}
+
+.mobileApp-div i {
+    color: black;
+}
+
+.mobileApp-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mobileApp-div h4 {
+    margin-right: 20px;
+}
